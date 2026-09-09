@@ -1,6 +1,6 @@
 body{
 border-radius: 50px 0px 50px 0;
-background-image: url(../cardapio/wallpaper.webp);
+background-image: url(fundo.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -97,7 +97,7 @@ header {
 }
 
 ul {
-    list-style: url("../cardapio/icons8-ultra-ball-20.png");
+    list-style: url("pokebola.jpeg");
 
 }
 
