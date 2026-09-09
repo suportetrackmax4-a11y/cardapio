@@ -119,8 +119,9 @@ ul {
     }
 
     .lista-infos {
-        padding-left: 0;        /* Remove o recuo da lista para centralizar melhor */
-        list-style-position: inside; /* Garante que os marcadores acompanhem o texto centralizado */
+        padding-left: 20px;         /* Devolve um espaço para as pokébolas respirarem */
+        text-align: left;           /* Faz o texto ficar alinhado certinho à esquerda */
+        list-style-position: outside; /* Garante que a pokébola fique para fora do texto */
     }
 
     .img-pokemon {
