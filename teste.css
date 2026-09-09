@@ -100,5 +100,31 @@ ul {
     list-style: url("pokebola.jpeg");
 
 }
+ @media (max-width: 768px) {
+    body {
+        border-radius: 0; /* Remove a borda arredondada do body que pode cortar a tela no celular */
+        padding: 10px;    /* Adiciona um espaçamento nas laterais para o conteúdo não colar na borda */
+    }
 
+    header, .listinha {
+        max-width: 100%;  /* Faz os blocos ocuparem a largura total disponível da tela */
+        margin: 10px 0;   /* Diminui a margem externa para aproveitar espaço */
+        padding: 15px;    /* Reduz um pouco o espaçamento interno */
+    }
+
+    .listinha {
+        flex-direction: column; /* Crucial: Alinha a imagem do Pokémon ACIMA do texto no celular */
+        text-align: center;     /* Centraliza os textos no mobile */
+        align-items: center;    /* Centraliza a imagem e a lista no meio da tela */
+    }
+
+    .lista-infos {
+        padding-left: 0;        /* Remove o recuo da lista para centralizar melhor */
+        list-style-position: inside; /* Garante que os marcadores acompanhem o texto centralizado */
+    }
+
+    .img-pokemon {
+        width: 120px;           /* Reduz levemente o tamanho da imagem em telas menores */
+    }
+}
 
