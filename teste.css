@@ -1,0 +1,104 @@
+body{
+border-radius: 50px 0px 50px 0;
+background-image: url(../cardapio/wallpaper.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+min-height: 100vh;
+margin: 0;
+
+}
+
+.titulo {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fonte-texto {
+        color: #373c3d;
+    font-weight: 600;
+
+}
+
+.listinha {
+    display: flex;
+    align-items: flex-start; /* Alinha tudo pelo topo */
+    gap: 20px;               /* Distância entre a imagem e as informações */
+    margin-bottom: 30px; 
+}
+
+.img-pokemon{
+    
+    width:10%;
+    margin-left:1%;
+    margin-top:0%;
+    border-radius:10%;
+    box-shadow: 0px -10px -20px -20px rgb(24, 22, 22);
+ }
+
+    .lista-infos {
+    margin: 0;
+    padding-left: 20px;      /* Dá o recuo necessário para as bolinhas aparecerem */
+    display:flex;
+    flex-direction: column;
+    gap: 6px;                /* Espaçamento entre uma bolinha e outra */
+    font-family: sans-serif;
+    color: #333;
+}
+
+
+.img-pokemon {
+    width: 150px;            
+    height: auto;            
+    flex-shrink: 0; 
+}
+
+/* Altera a fonte apenas dos termos em negrito dentro da sua lista */
+.lista-infos li strong {
+    font-family: 'Courier New', monospace; /* Nova fonte apenas para os títulos */
+    color: #ff0000;                       /* Opcional: muda a cor (ex: vermelho) */
+    font-size: 17px;                      /* Opcional: muda o tamanho */
+}
+
+.img-pokemon{    
+    width: 150px;            
+    height: auto;            
+    flex-shrink: 0; 
+}
+
+.lista-infos li strong {
+    font-family: 'Courier New', monospace; /* Nova fonte apenas para os títulos */
+    color: #ff0000;                       /* Opcional: muda a cor (ex: vermelho) */
+    font-size: 17px;                      /* Opcional: muda o tamanho */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.75); /* Fundo preto transparente */
+    color: #ffffff; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+.listinha {
+    background-color: rgba(255, 255, 255, 0.92); /* Fundo branco nítido */
+    color: #1a1a1a; /* Texto quase preto */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* Sombra para dar profundidade */
+    
+    /* Configuração para alinhar imagem e texto lado a lado */
+    display: flex; 
+    gap: 20px;
+    align-items: center;
+}
+
+ul {
+    list-style: url("../cardapio/icons8-ultra-ball-20.png");
+
+}
+
+
